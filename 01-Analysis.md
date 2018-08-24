@@ -5,8 +5,9 @@
 This is the Fibonacci sequence with $F_1 = F_2 = 1$. The 10th term is 55.
 2. Is the sequence $1,0,1,0,\ldots$ a subsequence of $1,2,3,4,\ldots$?
 No, for various reasons. Intuitively, a subsequence is a sequence that can be derived from another sequence by removing some or no elements without chaning the order of the remaining elements. This obviously is not the case for the two given sequences.
-3. 
-4. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
+More formally, 
+3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
+4. 
 5. f
 6. f
 7. f
@@ -218,6 +219,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU4NzYzNiwxNTg0OTk5NDk0LDE0MT
-U2NDIzODMsLTEyNzU4NzYzNiwxMDAyNzQwOTgzXX0=
+eyJoaXN0b3J5IjpbLTg0MTIzODk2NywtMTI3NTg3NjM2LDE1OD
+Q5OTk0OTQsMTQxNTY0MjM4MywtMTI3NTg3NjM2LDEwMDI3NDA5
+ODNdfQ==
 -->

@@ -23,7 +23,11 @@ so in particular $U_l$ is a subsequence of $S_j$.
 Let $\{ s_n\}_{n \in \mathbb{N}}$ denote a sequence with limits $l_1, l_2$, with $l_1 \neq l_2$. Now we choose $\epsilon = \frac{1}{3}|l_1 - l_2| > 0$ (because $l_1 \neq l_2$).
 Since $l_1$ is a limit of $\{ s_n\}_{n \in \mathbb{N}}$ we can apply the definition of limit with our choice of $\epsilon$ to find $N_1 \in \mathbb{N}$ s.t.
 $$
-|a_n - l_1| < \epsilon \; \forall n \geq N_1
+|a_n - l_1| < \epsilon \; \forall n \geq N_1.
+$$
+Analogously, we can also find $N_1 \in \mathbb{N}$ s.t.
+$$
+|a_n - l_1| < \epsilon \; \forall n \geq N_1.
 $$
 5. 
 6. f
@@ -237,5 +241,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTg5MDY5NCwtMTkxMDIwNTU2MV19
+eyJoaXN0b3J5IjpbLTU5MDU1NzU4MywtMTkxMDIwNTU2MV19
 -->

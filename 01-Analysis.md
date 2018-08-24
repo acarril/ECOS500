@@ -1,11 +1,10 @@
 # 1. Analysis Problems
 
 1. Let $\{ s_n \}_{n=1}^\infty$ be defined by $s_1=s_2=1$, and $s_{n+1} = s_n = s_{n-1}$ for $n\geq 2$. Find $s_{10}$.
-**Solution:**
-This is the Fibonacci sequence with $F_1 = F_2 = 1$. The 10th term is 55.
+**Solution:** This is the Fibonacci sequence with $F_1 = F_2 = 1$. The 10th term is 55.
 2. Is the sequence $1,0,1,0,\ldots$ a subsequence of $1,2,3,4,\ldots$?
-No, for various reasons. Intuitively, a subsequence is a sequence that can be derived from another sequence by removing some or no elements without chaning the order of the remaining elements. This obviously is not the case for the two given sequences.
-More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $b_k = a_{n_k}$, where $n_1 < n_2 < \ldots$ is an increasing sequence of indices. Let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n + 1}{2}$. It is evident that $\{ b_k\}$ does not satisfy the definition of subsequence for $\{ a_n\}$, because $b_2=0 \nexists$
+**Solution:** No, for various reasons. Intuitively, a subsequence is a sequence that can be derived from another sequence by removing some or no elements without chaning the order of the remaining elements. This obviously is not the case for the two given sequences.
+More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $b_k = a_{n_k}$, where $n_1 < n_2 < \ldots$ is an increasing sequence of indices. Let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n + 1}{2}$. It is evident that $\{ b_k\}$ does not satisfy the definition of subsequence for $\{ a_n\}$, because $b_2=0 \notin \{a_n\}$.
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
 4. 
 5. f
@@ -219,7 +218,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzAyMTU3NTAsLTQ1MTM5Nzk4NSwtOD
+eyJoaXN0b3J5IjpbLTE5MDcyNTA2MDUsLTQ1MTM5Nzk4NSwtOD
 QxMjM4OTY3LC0xMjc1ODc2MzYsMTU4NDk5OTQ5NCwxNDE1NjQy
 MzgzLC0xMjc1ODc2MzYsMTAwMjc0MDk4M119
 -->

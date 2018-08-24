@@ -6,7 +6,7 @@
 **Solution:** No, for various reasons. Intuitively, a subsequence is a sequence that can be derived from another sequence by removing some or no elements without chaning the order of the remaining elements. This obviously is not the case for the two given sequences.
 More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $b_k = a_{n_k}$, where $n_1 < n_2 < \ldots$ is an increasing sequence of indices. Let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n + 1}{2}$. It is evident that $\{ b_k\}$ does not satisfy the definition of subsequence for $\{ a_n\}$, because $b_2=0 \notin \{a_n\}$.
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
-**Solution:** Let $S_k\}$ be a sequence s.t. $\{T_m\}$
+**Solution:** Let $S_k$ be a sequence s.t. $T_m = S_{k_m}$
 4. 
 5. 
 6. f
@@ -220,8 +220,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTg4NzgyMSwxNzYwMzUwNjcxLC0xOT
-A3MjUwNjA1LC00NTEzOTc5ODUsLTg0MTIzODk2NywtMTI3NTg3
-NjM2LDE1ODQ5OTk0OTQsMTQxNTY0MjM4MywtMTI3NTg3NjM2LD
-EwMDI3NDA5ODNdfQ==
+eyJoaXN0b3J5IjpbMzE0NzY3NjI2LDE3NjAzNTA2NzEsLTE5MD
+cyNTA2MDUsLTQ1MTM5Nzk4NSwtODQxMjM4OTY3LC0xMjc1ODc2
+MzYsMTU4NDk5OTQ5NCwxNDE1NjQyMzgzLC0xMjc1ODc2MzYsMT
+AwMjc0MDk4M119
 -->

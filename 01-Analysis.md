@@ -7,7 +7,7 @@
 More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $b_k = a_{n_k}$, where $n_1 < n_2 < \ldots$ is an increasing sequence of indices.
 From this definition we have that $n\geq k$, and that
 $$
-\forall n \geq 1, \exists n \geq k : b_n = a_n.
+\forall n \geq 1, \exists n \geq k : b_k = a_n.
 $$
 Now let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n + 1}{2}$. It is evident that $\{ b_k\}$ does not satisfy the definition of subsequence for $\{ a_n\}$, because $b_2=0 \notin \{a_n\}$.
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
@@ -15,7 +15,7 @@ Now let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n 
 Now let $U_l$ be a sequence defined by $U_l = T_{m_l}$, where again $m_1 < m_2 < \ldots$ is an increasing sequence of indices.
 Thus by construction we have that
 $$
-\forall j \geq 1, \exists j \geq k : b_j = a_j.
+\forall j \geq 1, \exists j \geq k \geq l : b_k = a_j.
 $$ 
 4. 
 5. 
@@ -230,8 +230,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMDk2ODAsLTUxNjU4NzY5LC0xMDg3MT
-EyODgzLDE3NjAzNTA2NzEsLTE5MDcyNTA2MDUsLTQ1MTM5Nzk4
-NSwtODQxMjM4OTY3LC0xMjc1ODc2MzYsMTU4NDk5OTQ5NCwxND
-E1NjQyMzgzLC0xMjc1ODc2MzYsMTAwMjc0MDk4M119
+eyJoaXN0b3J5IjpbNTI1ODU0NDQ1LC01MTY1ODc2OSwtMTA4Nz
+ExMjg4MywxNzYwMzUwNjcxLC0xOTA3MjUwNjA1LC00NTEzOTc5
+ODUsLTg0MTIzODk2NywtMTI3NTg3NjM2LDE1ODQ5OTk0OTQsMT
+QxNTY0MjM4MywtMTI3NTg3NjM2LDEwMDI3NDA5ODNdfQ==
 -->

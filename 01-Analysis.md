@@ -21,7 +21,10 @@ so in particular $U_l$ is a subsequence of $S_j$.
 4. If $\{ s_n\}_{n \in \mathbb{N}}$ is a sequence of real numbers with limit $L$, prove that this limit is unique.
 **Solution:** First, if a sequence has a limit it is by definition convergent. So the statement to prove can be restated as "For all convergent sequences there exists a unique limit $L$". We're going to prove this by contradiction, assuming that there exists one convergent sequence which does not have a unique limit.
 Let $\{ s_n\}_{n \in \mathbb{N}}$ denote a sequence with limits $l_1, l_2$, with $l_1 \neq l_2$. Now we choose $\epsilon = \frac{1}{3}|l_1 - l_2| > 0$ (because $l_1 \neq l_2$).
-Since $l_1$ is a limit of $\{ s_n\}_{n \in \mathbb{N}}$ we can apply the definition of limit with our choice of $\epsilon$
+Since $l_1$ is a limit of $\{ s_n\}_{n \in \mathbb{N}}$ we can apply the definition of limit with our choice of $\epsilon$ to find $N_1 \in \mathbb{N}$ s.t.
+$$
+|a_n - l_1| < \epsilon \; \forall n \geq N_1
+$$
 5. 
 6. f
 7. f
@@ -234,6 +237,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI4ODkzODEsLTE5MTAyMDU1NjFdfQ
-==
+eyJoaXN0b3J5IjpbMTg2NTg5MDY5NCwtMTkxMDIwNTU2MV19
 -->

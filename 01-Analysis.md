@@ -30,7 +30,7 @@ Since $S_n$ is Cauchy, $\exists M$ s.t. $j\geq M \implies d(S_m, S_j) < \epsilon
 Taking $N=M$, we have that $$d(S_i, L) \leq d(S_N, L) + d(S_i, S_N) < \epsilon/2 + \epsilon/2 = \epsilon.$$
 18.  Prove that every subsequence of a Cauchy sequence is a Cauchy sequence.
 **Solution:** Let $\{a_n \}_{n\in \mathbb{N}}$ be Cauchy, and let $\{a_{n_k} \}_{k\in \mathbb{N}}$ be a non-Cauchy subsequence of $\{a_n \}$. Therefore, there must be some $\epsilon > 0$ s.t. $N\geq 1$ only if there is some $p,q \geq N$ s.t. $|a_{n_p} - a_{n_q}| \geq \epsilon$. However, by assumption there exists some $N' \geq 1$ s.t. $p,q \geq N'$ only if $|a_{n_p} - a_{n_q}| < \epsilon$, which is a contradiction. Therefore, there can't be such non-Cauchy subsequence.
-19. Prove that $\lim_{x\rightarrow -2} x² + 3x = -2$ using 
+19. Prove that $\lim_{x\rightarrow -2} x² + 3x = -2$ using *i)* the definition of a limit and *ii)* using results about continuous functions.
 20. 
 21. f
 22. f
@@ -216,5 +216,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTcyMTgwNCwxMDAyNzQwOTgzXX0=
+eyJoaXN0b3J5IjpbLTEyNDc2NjExNjIsMTAwMjc0MDk4M119
 -->

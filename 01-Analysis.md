@@ -8,6 +8,7 @@ More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
 **Solution:** Let $S_j$ be a sequence s.t. $T_k = S_{n_k}$ where $n_1 < n_2 < \ldots$ is an increasing sequence of indices (i.e. it is a subsequence of $S_j$).
 Now let $U_l$ be a sequence defined by $U_l = T_{n_l}$, where again $n_1 < n_2 < \ldots$ is an increasing sequence of indices.
+By construction, every element of 
 4. 
 5. 
 6. f
@@ -221,8 +222,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzNTg0OTgwLDE3NjAzNTA2NzEsLTE5MD
-cyNTA2MDUsLTQ1MTM5Nzk4NSwtODQxMjM4OTY3LC0xMjc1ODc2
-MzYsMTU4NDk5OTQ5NCwxNDE1NjQyMzgzLC0xMjc1ODc2MzYsMT
-AwMjc0MDk4M119
+eyJoaXN0b3J5IjpbLTIwNzEyMDc0NzIsMTc2MDM1MDY3MSwtMT
+kwNzI1MDYwNSwtNDUxMzk3OTg1LC04NDEyMzg5NjcsLTEyNzU4
+NzYzNiwxNTg0OTk5NDk0LDE0MTU2NDIzODMsLTEyNzU4NzYzNi
+wxMDAyNzQwOTgzXX0=
 -->

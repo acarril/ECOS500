@@ -2,10 +2,11 @@
 
 1. Let $\{ s_n \}_{n=1}^\infty$ be defined by $s_1=s_2=1$, and $s_{n+1} = s_n = s_{n-1}$ for $n\geq 2$. Find $s_{10}$.
 **Solution:**
-This is the Fibonacci sequence with $F_1 = F_2 = 1$.
+This is the Fibonacci sequence with $F_1 = F_2 = 1$. The 10th term is 55.
 2. Is the sequence $1,0,1,0,\ldots$ a subsequence of $1,2,3,4,\ldots$?
-3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
-4. f
+No, for various reasons. Intuitively, a subsequence is a sequence that can be derived from another sequence by
+3. 
+4. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
 5. f
 6. f
 7. f
@@ -17,22 +18,22 @@ This is the Fibonacci sequence with $F_1 = F_2 = 1$.
 13. f
 14. f
 15. f
-16. Prove that every convergent sequence is Cauchy.
+16. f
+17. Prove that every convergent sequence is Cauchy.
 **Solution:** Given $\epsilon > 0, \exists N_1$ s.t. $\forall n \geq N_1 | x_n - a | < \epsilon/2 < \epsilon$.
 Also, for some $m > n > N_1$ we have that $| x_m - a | < \epsilon/2 < \epsilon$.
 Now let $N \geq N_1$, so that $\forall n, m \geq N$ we have that
 $$
 |x_n - x_m| = |x_n - a - x_m + a| < |x_n - a| + |-(x_m-a)| < \epsilon/2 + \epsilon/2 = \epsilon.
 $$
-17. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$, prove that $\{s_n \}_{n=1}^\infty$ itself converges to $L$.
+18. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$, prove that $\{s_n \}_{n=1}^\infty$ itself converges to $L$.
 **Solution:** Let $S_{n_k} \rightarrow L$. We need to show that $\forall \epsilon > 0, \exists N$ s.t. $d(S_i, L) < \epsilon, \forall i \geq N$.
 Since $S_n$ is Cauchy, $\exists M$ s.t. $j\geq M \implies d(S_m, S_j) < \epsilon/2 \implies d(S_m, L) < \epsilon/2$.
 Taking $N=M$, we have that $$d(S_i, L) \leq d(S_N, L) + d(S_i, S_N) < \epsilon/2 + \epsilon/2 = \epsilon.$$
-18.  Prove that every subsequence of a Cauchy sequence is a Cauchy sequence.
+19.  Prove that every subsequence of a Cauchy sequence is a Cauchy sequence.
 **Solution:** Let $\{a_n \}_{n\in \mathbb{N}}$ be Cauchy, and let $\{a_{n_k} \}_{k\in \mathbb{N}}$ be a non-Cauchy subsequence of $\{a_n \}$. Therefore, there must be some $\epsilon > 0$ s.t. $N\geq 1$ only if there is some $p,q \geq N$ s.t. $|a_{n_p} - a_{n_q}| \geq \epsilon$. However, by assumption there exists some $N' \geq 1$ s.t. $p,q \geq N'$ only if $|a_{n_p} - a_{n_q}| < \epsilon$, which is a contradiction. Therefore, there can't be such non-Cauchy subsequence.
-19. Prove that $\lim_{x\rightarrow -2} x² + 3x = -2$ using *i)* the definition of a limit and *ii)* using results about continuous functions.
-20. 
-21. f
+20. Prove that $\lim_{x\rightarrow -2} x² + 3x = -2$ using *i)* the definition of a limit and *ii)* using results about continuous functions.
+21. 
 22. f
 23. f
 24. f
@@ -62,7 +63,8 @@ Taking $N=M$, we have that $$d(S_i, L) \leq d(S_N, L) + d(S_i, S_N) < \epsilon/2
 48. f
 49. f
 50. f
-51. f 
+51. f
+52. f 
 
 ## KaTeX
 
@@ -216,5 +218,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDc1NDYxMCwxMDAyNzQwOTgzXX0=
+eyJoaXN0b3J5IjpbNTkyMDM1NjEsMTAwMjc0MDk4M119
 -->

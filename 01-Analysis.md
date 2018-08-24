@@ -29,7 +29,7 @@ $$
 Since $S_n$ is Cauchy, $\exists M$ s.t. $j\geq M \implies d(S_m, S_j) < \epsilon/2 \implies d(S_m, L) < \epsilon/2$.
 Taking $N=M$, we have that $$d(S_i, L) \leq d(S_N, L) + d(S_i, S_N) < \epsilon/2 + \epsilon/2 = \epsilon.$$
 18.  Prove that every subsequence of a Cauchy sequence is a Cauchy sequence.
-**Solution:** Let $\{a_n \}_{n=1}^\infty$
+**Solution:** Let $\{a_n \}_{n\in \mathbb{N}}$ be Cauchy, and let $\{a_{n_k} \}_{k\in \mathbb{N}}$ be a non-Cauchy subsequence of $\{a_n \}$. Therefore, there must 
 19. 
 20. 
 21. f
@@ -216,6 +216,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNDAxNTEsNjMyODk3MjgwLDE1Mzk3NT
-Q5NjcsMTg3MTY0Mjg1NF19
+eyJoaXN0b3J5IjpbLTgwNDAwNDM4NSw2MzI4OTcyODAsMTUzOT
+c1NDk2NywxODcxNjQyODU0XX0=
 -->

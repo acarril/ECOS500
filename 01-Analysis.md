@@ -28,9 +28,10 @@ $$
 **Solution:** Let $S_{n_k} \rightarrow L$. We need to show that $\forall \epsilon > 0, \exists N$ s.t. $d(S_i, L) < \epsilon, \forall i \geq N$.
 Since $S_n$ is Cauchy, $\exists M$ s.t. $j\geq M \implies d(S_m, S_j) < \epsilon/2 \implies d(S_m, L) < \epsilon/2$.
 Taking $N=M$, we have that $$d(S_i, L) \leq d(S_N, L) + d(S_i, S_N) < \epsilon/2 + \epsilon/2 = \epsilon.$$
-18.  
-19. f
-20. f
+18.  Prove that every subsequence of a Cauchy sequence is a Cauchy sequence.
+**Solution:** Let $\{a_n \}_{n=1}^\infty$
+19. 
+20. 
 21. f
 22. f
 23. f
@@ -59,7 +60,9 @@ Taking $N=M$, we have that $$d(S_i, L) \leq d(S_N, L) + d(S_i, S_N) < \epsilon/2
 46. f
 47. f
 48. f
-49. f 
+49. f
+50. f
+51. f 
 
 ## KaTeX
 
@@ -213,6 +216,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTYzODUxOSw2MzI4OTcyODAsMTUzOT
-c1NDk2NywxODcxNjQyODU0XX0=
+eyJoaXN0b3J5IjpbNzQwNDAxNTEsNjMyODk3MjgwLDE1Mzk3NT
+Q5NjcsMTg3MTY0Mjg1NF19
 -->

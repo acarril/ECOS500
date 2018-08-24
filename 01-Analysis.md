@@ -7,9 +7,9 @@
 More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $b_k = a_{n_k}$, where $n_1 < n_2 < \ldots$ is an increasing sequence of indices.
 From this definition we have that $n\geq k$, and that
 $$
-\forall n \geq 1, \exists n \geq k : b_n 
+\forall n \geq 1, \exists n \geq k : b_n = a_n.
 $$
-Let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n + 1}{2}$. It is evident that $\{ b_k\}$ does not satisfy the definition of subsequence for $\{ a_n\}$, because $b_2=0 \notin \{a_n\}$.
+Now let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n + 1}{2}$. It is evident that $\{ b_k\}$ does not satisfy the definition of subsequence for $\{ a_n\}$, because $b_2=0 \notin \{a_n\}$.
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
 **Solution:** Let $S_j$ be a sequence s.t. $T_k = S_{n_k}$ where $n_1 < n_2 < \ldots$ is an increasing sequence of indices (i.e. it is a subsequence of $S_j$).
 Now let $U_l$ be a sequence defined by $U_l = T_{m_l}$, where again $m_1 < m_2 < \ldots$ is an increasing sequence of indices.
@@ -227,8 +227,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTAzMzYwNCwtMTA4NzExMjg4MywxNz
-YwMzUwNjcxLC0xOTA3MjUwNjA1LC00NTEzOTc5ODUsLTg0MTIz
-ODk2NywtMTI3NTg3NjM2LDE1ODQ5OTk0OTQsMTQxNTY0MjM4My
-wtMTI3NTg3NjM2LDEwMDI3NDA5ODNdfQ==
+eyJoaXN0b3J5IjpbLTUxNjU4NzY5LC0xMDg3MTEyODgzLDE3Nj
+AzNTA2NzEsLTE5MDcyNTA2MDUsLTQ1MTM5Nzk4NSwtODQxMjM4
+OTY3LC0xMjc1ODc2MzYsMTU4NDk5OTQ5NCwxNDE1NjQyMzgzLC
+0xMjc1ODc2MzYsMTAwMjc0MDk4M119
 -->

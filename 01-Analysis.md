@@ -24,7 +24,7 @@ Now let $N \geq N_1$, so that $\forall n, m \geq N$ we have that
 $$
 |x_n - x_m| = |x_n - a - x_m + a| < |x_n - a| + |-(x_m-a)| < \epsilon/2 + \epsilon/2 = \epsilon.
 $$
-17. 
+17. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$
 18. f
 19. f
 20. f
@@ -209,5 +209,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTY0Mjg1NF19
+eyJoaXN0b3J5IjpbLTMxNjIwMTU3NSwxODcxNjQyODU0XX0=
 -->

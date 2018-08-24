@@ -19,7 +19,7 @@ $$
 $$
 so in particular $U_l$ is a subsequence of $S_j$.
 4. If $\{ s_n\}_{n \in \mathbb{N}}$ is a sequence of real numbers with limit $L$, prove that this limit is unique.
-**Solution:** 
+**Solution:** First, if a sequence has a limit it is by definition convergent. So the statement to prove can be restated as "For all convergent sequences there exists a unique limit $L$".
 5. 
 6. f
 7. f
@@ -232,5 +232,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTUwOTIsLTE5MTAyMDU1NjFdfQ==
+eyJoaXN0b3J5IjpbLTIwMzU1NjI1OTEsLTE5MTAyMDU1NjFdfQ
+==
 -->

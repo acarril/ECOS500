@@ -26,7 +26,8 @@ $$
 $$
 17. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$, prove that $\{s_n \}_{n=1}^\infty$ itself converges to $L$.
 **Solution:** Let $S_{n_k} \rightarrow L$. We need to show that $\forall \epsilon > 0, \exists N$ s.t. $d(S_i, L) < \epsilon, \forall i \geq N$.
-Since $S_n$ is Cauchy, $\exists M$ s.t. $j\geq M \implies$
+Since $S_n$ is Cauchy, $\exists M$ s.t. $j\geq M \implies d(S_m, S_j) < \epsilon/2 \implies d(S_m, L) < \epsilon/2$.
+Taking $$
 18.  
 19. f
 20. f
@@ -212,6 +213,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0NDU1MjIxLDYzMjg5NzI4MCwxNTM5Nz
-U0OTY3LDE4NzE2NDI4NTRdfQ==
+eyJoaXN0b3J5IjpbLTE0NTcxOTg0NjYsNjMyODk3MjgwLDE1Mz
+k3NTQ5NjcsMTg3MTY0Mjg1NF19
 -->

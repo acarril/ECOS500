@@ -2,7 +2,7 @@
 
 1. Let $\{ s_n \}_{n=1}^\infty$ be defined by $s_1=s_2=1$, and $s_{n+1} = s_n = s_{n-1}$ for $n\geq 2$. Find $s_{10}$.
 **Solution:**
- Some proof.
+This is the Fibonacci sequence with $F_1 = F_2 = 1$.
 2. Is the sequence $1,0,1,0,\ldots$ a subsequence of $1,2,3,4,\ldots$?
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
 4. f
@@ -216,5 +216,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc2NjExNjIsMTAwMjc0MDk4M119
+eyJoaXN0b3J5IjpbMTI0MDc1NDYxMCwxMDAyNzQwOTgzXX0=
 -->

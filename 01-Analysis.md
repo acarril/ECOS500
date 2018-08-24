@@ -25,9 +25,9 @@ Since $l_1$ is a limit of $\{ s_n\}_{n \in \mathbb{N}}$ we can apply the definit
 $$
 |a_n - l_1| < \epsilon \; \forall n \geq N_1.
 $$
-Analogously, we can also find $N_1 \in \mathbb{N}$ s.t.
+Analogously, we can also find $N_2 \in \mathbb{N}$ s.t.
 $$
-|a_n - l_1| < \epsilon \; \forall n \geq N_1.
+|a_n - l_2| < \epsilon \; \forall n \geq N_2.
 $$
 5. 
 6. f
@@ -241,5 +241,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDU1NzU4MywtMTkxMDIwNTU2MV19
+eyJoaXN0b3J5IjpbLTE2MDc5MjY0ODAsLTE5MTAyMDU1NjFdfQ
+==
 -->

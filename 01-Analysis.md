@@ -6,8 +6,9 @@
 **Solution:** No, for various reasons. Intuitively, a subsequence is a sequence that can be derived from another sequence by removing some or no elements without chaning the order of the remaining elements. This obviously is not the case for the two given sequences.
 More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $b_k = a_{n_k}$, where $n_1 < n_2 < \ldots$ is an increasing sequence of indices. Let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n + 1}{2}$. It is evident that $\{ b_k\}$ does not satisfy the definition of subsequence for $\{ a_n\}$, because $b_2=0 \notin \{a_n\}$.
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
+**Solution:** Let $$
 4. 
-5. f
+5. 
 6. f
 7. f
 8. f
@@ -19,22 +20,22 @@ More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $
 14. f
 15. f
 16. f
-17. Prove that every convergent sequence is Cauchy.
+17. f
+18. Prove that every convergent sequence is Cauchy.
 **Solution:** Given $\epsilon > 0, \exists N_1$ s.t. $\forall n \geq N_1 | x_n - a | < \epsilon/2 < \epsilon$.
 Also, for some $m > n > N_1$ we have that $| x_m - a | < \epsilon/2 < \epsilon$.
 Now let $N \geq N_1$, so that $\forall n, m \geq N$ we have that
 $$
 |x_n - x_m| = |x_n - a - x_m + a| < |x_n - a| + |-(x_m-a)| < \epsilon/2 + \epsilon/2 = \epsilon.
 $$
-18. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$, prove that $\{s_n \}_{n=1}^\infty$ itself converges to $L$.
+19. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$, prove that $\{s_n \}_{n=1}^\infty$ itself converges to $L$.
 **Solution:** Let $S_{n_k} \rightarrow L$. We need to show that $\forall \epsilon > 0, \exists N$ s.t. $d(S_i, L) < \epsilon, \forall i \geq N$.
 Since $S_n$ is Cauchy, $\exists M$ s.t. $j\geq M \implies d(S_m, S_j) < \epsilon/2 \implies d(S_m, L) < \epsilon/2$.
 Taking $N=M$, we have that $$d(S_i, L) \leq d(S_N, L) + d(S_i, S_N) < \epsilon/2 + \epsilon/2 = \epsilon.$$
-19.  Prove that every subsequence of a Cauchy sequence is a Cauchy sequence.
+20.  Prove that every subsequence of a Cauchy sequence is a Cauchy sequence.
 **Solution:** Let $\{a_n \}_{n\in \mathbb{N}}$ be Cauchy, and let $\{a_{n_k} \}_{k\in \mathbb{N}}$ be a non-Cauchy subsequence of $\{a_n \}$. Therefore, there must be some $\epsilon > 0$ s.t. $N\geq 1$ only if there is some $p,q \geq N$ s.t. $|a_{n_p} - a_{n_q}| \geq \epsilon$. However, by assumption there exists some $N' \geq 1$ s.t. $p,q \geq N'$ only if $|a_{n_p} - a_{n_q}| < \epsilon$, which is a contradiction. Therefore, there can't be such non-Cauchy subsequence.
-20. Prove that $\lim_{x\rightarrow -2} x² + 3x = -2$ using *i)* the definition of a limit and *ii)* using results about continuous functions.
-21. 
-22. f
+21. Prove that $\lim_{x\rightarrow -2} x² + 3x = -2$ using *i)* the definition of a limit and *ii)* using results about continuous functions.
+22. 
 23. f
 24. f
 25. f
@@ -64,7 +65,8 @@ Taking $N=M$, we have that $$d(S_i, L) \leq d(S_N, L) + d(S_i, S_N) < \epsilon/2
 49. f
 50. f
 51. f
-52. f 
+52. f
+53. f 
 
 ## KaTeX
 
@@ -218,7 +220,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcyNTA2MDUsLTQ1MTM5Nzk4NSwtOD
-QxMjM4OTY3LC0xMjc1ODc2MzYsMTU4NDk5OTQ5NCwxNDE1NjQy
-MzgzLC0xMjc1ODc2MzYsMTAwMjc0MDk4M119
+eyJoaXN0b3J5IjpbMTc2MDM1MDY3MSwtMTkwNzI1MDYwNSwtND
+UxMzk3OTg1LC04NDEyMzg5NjcsLTEyNzU4NzYzNiwxNTg0OTk5
+NDk0LDE0MTU2NDIzODMsLTEyNzU4NzYzNiwxMDAyNzQwOTgzXX
+0=
 -->

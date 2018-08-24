@@ -18,7 +18,8 @@ $$
 \forall j \geq 1, \exists j \geq k \geq l : U_l = T_k = S_j,
 $$
 so in particular $U_l$ is a subsequence of $S_j$.
-4. 
+4. If $\{ s_n\}_{n \in \mathbb{N}}$ is a sequence of real numbers with limit $L$, prove that this limit is unique.
+**Solution:** 
 5. 
 6. f
 7. f
@@ -231,5 +232,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAyMDU1NjFdfQ==
+eyJoaXN0b3J5IjpbLTU0OTUwOTIsLTE5MTAyMDU1NjFdfQ==
 -->

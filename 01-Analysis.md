@@ -13,7 +13,10 @@ Now let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n 
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
 **Solution:** Let $S_j$ be a sequence s.t. $T_k = S_{n_k}$ where $n_1 < n_2 < \ldots$ is an increasing sequence of indices (i.e. it is a subsequence of $S_j$).
 Now let $U_l$ be a sequence defined by $U_l = T_{m_l}$, where again $m_1 < m_2 < \ldots$ is an increasing sequence of indices.
-By construction, every element of 
+Thus by construction we have that
+$$
+\forall j \geq 1, \exists j \geq k : b_j = a_j.
+$$ 
 4. 
 5. 
 6. f
@@ -227,8 +230,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjU4NzY5LC0xMDg3MTEyODgzLDE3Nj
-AzNTA2NzEsLTE5MDcyNTA2MDUsLTQ1MTM5Nzk4NSwtODQxMjM4
-OTY3LC0xMjc1ODc2MzYsMTU4NDk5OTQ5NCwxNDE1NjQyMzgzLC
-0xMjc1ODc2MzYsMTAwMjc0MDk4M119
+eyJoaXN0b3J5IjpbODkzMDk2ODAsLTUxNjU4NzY5LC0xMDg3MT
+EyODgzLDE3NjAzNTA2NzEsLTE5MDcyNTA2MDUsLTQ1MTM5Nzk4
+NSwtODQxMjM4OTY3LC0xMjc1ODc2MzYsMTU4NDk5OTQ5NCwxND
+E1NjQyMzgzLC0xMjc1ODc2MzYsMTAwMjc0MDk4M119
 -->

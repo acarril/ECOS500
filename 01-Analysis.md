@@ -7,7 +7,7 @@
 More formally, a subsequence of $\{ a_n\}$ is a sequence $\{ b_k\}$ defined by $b_k = a_{n_k}$, where $n_1 < n_2 < \ldots$ is an increasing sequence of indices. Let $a_n = 1,2,3,\ldots = n$. Let $\{ b_k\} = 1,0,1,0,\ldots = \frac{(-1)^n + 1}{2}$. It is evident that $\{ b_k\}$ does not satisfy the definition of subsequence for $\{ a_n\}$, because $b_2=0 \notin \{a_n\}$.
 3. Let $S$ be a sequence. Prove that every subsequence of a subsequence of $S$ is itself a subsequence of $S$.
 **Solution:** Let $S_j$ be a sequence s.t. $T_k = S_{n_k}$ where $n_1 < n_2 < \ldots$ is an increasing sequence of indices (i.e. it is a subsequence of $S_j$).
-Now let $U_l$ be a sequence defined by $U_l = T_{n_l}$, where again $n_1 < n_2 < \ldots$ is an increasing sequence of indices.
+Now let $U_l$ be a sequence defined by $U_l = T_{m_l}$, where again $m_1 < m_2 < \ldots$ is an increasing sequence of indices.
 By construction, every element of 
 4. 
 5. 
@@ -222,7 +222,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEyMDc0NzIsMTc2MDM1MDY3MSwtMT
+eyJoaXN0b3J5IjpbLTEwODcxMTI4ODMsMTc2MDM1MDY3MSwtMT
 kwNzI1MDYwNSwtNDUxMzk3OTg1LC04NDEyMzg5NjcsLTEyNzU4
 NzYzNiwxNTg0OTk5NDk0LDE0MTU2NDIzODMsLTEyNzU4NzYzNi
 wxMDAyNzQwOTgzXX0=

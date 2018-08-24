@@ -24,8 +24,9 @@ Now let $N \geq N_1$, so that $\forall n, m \geq N$ we have that
 $$
 |x_n - x_m| = |x_n - a - x_m + a| < |x_n - a| + |-(x_m-a)| < \epsilon/2 + \epsilon/2 = \epsilon.
 $$
-17. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$
-18. f
+17. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$, prove that $\{s_n \}_{n=1}^\infty$ itself converges to $L$.
+**Solution:** 
+18. 
 19. f
 20. f
 21. f
@@ -55,7 +56,8 @@ $$
 45. f
 46. f
 47. f
-48. f 
+48. f
+49. f 
 
 ## KaTeX
 
@@ -209,5 +211,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjIwMTU3NSwxODcxNjQyODU0XX0=
+eyJoaXN0b3J5IjpbMTUzOTc1NDk2NywxODcxNjQyODU0XX0=
 -->

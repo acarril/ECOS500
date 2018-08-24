@@ -16,7 +16,8 @@ Now let $U_l$ be a sequence defined by $U_l = T_{m_l}$, where again $m_1 < m_2 <
 Thus by construction we have that
 $$
 \forall j \geq 1, \exists j \geq k \geq l : U_l = T_k = S_j,
-$$ 
+$$
+so in particular $U_l$ is a subsequence of $S_j$.
 4. 
 5. 
 6. f
@@ -230,9 +231,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDQ5MjU0OCwtNzQ1NzQ0ODYsLTUxNj
-U4NzY5LC0xMDg3MTEyODgzLDE3NjAzNTA2NzEsLTE5MDcyNTA2
-MDUsLTQ1MTM5Nzk4NSwtODQxMjM4OTY3LC0xMjc1ODc2MzYsMT
-U4NDk5OTQ5NCwxNDE1NjQyMzgzLC0xMjc1ODc2MzYsMTAwMjc0
-MDk4M119
+eyJoaXN0b3J5IjpbLTE5MTAyMDU1NjFdfQ==
 -->

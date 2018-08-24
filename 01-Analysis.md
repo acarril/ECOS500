@@ -25,8 +25,9 @@ $$
 |x_n - x_m| = |x_n - a - x_m + a| < |x_n - a| + |-(x_m-a)| < \epsilon/2 + \epsilon/2 = \epsilon.
 $$
 17. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$, prove that $\{s_n \}_{n=1}^\infty$ itself converges to $L$.
-**Solution:** Let $S_{n_k} \rightarrow L$. We need to show that $\forall \epsilon > 0, \exists N$ s.t. $d(S_i, L) < \epsilon \forall i$
-18. 
+**Solution:** Let $S_{n_k} \rightarrow L$. We need to show that $\forall \epsilon > 0, \exists N$ s.t. $d(S_i, L) < \epsilon, \forall i \geq N$.
+Since $S_n$ is Cauchy, $\exists M$ s.t. $j\geq M \implies$
+18.  
 19. f
 20. f
 21. f
@@ -211,6 +212,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4OTMxNDc0LDYzMjg5NzI4MCwxNTM5Nz
+eyJoaXN0b3J5IjpbMjM0NDU1MjIxLDYzMjg5NzI4MCwxNTM5Nz
 U0OTY3LDE4NzE2NDI4NTRdfQ==
 -->

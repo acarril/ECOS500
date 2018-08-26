@@ -43,7 +43,7 @@ $$ This a contradiction, so the limit must be unique.
 **Solution:** [I prove that $L\leq M$]
 Assume $L>M$. Then there exists $n$ with $|a_n - L| < L-P$, which is the same as
 $$M - L < a_n - L < L - M.$$ This implies that $a_n > M$, which contradicts the definition of $M$.
-6. 
+6. Suppose that $(s_n)$ converges to $s$, $(t_n)$ converges to $t$, and $s_n \leq t_n \: \forall \: n$. Prove that $s \leq t$.**Solution:** Suppose $s>t$ write $c=s-t$ there exists $N$ such that $n>N$ implies $|s_n-s|<c/4$. There exists $N'$ such that $n>N'$ implies $|t_n-t|<c/4$, take $n>\sup(N,N')$ $s_n-t_n=s_n-s+s-t+t-t_n\geq s-t-|s_n-s|-|t-t_n|\geq c-c/4-c/4\geq c/2$ contradiction.
 7. f
 8. f
 9. f
@@ -259,7 +259,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTkxMDIzMiwxNDA0OTgxNTk5LC0xNz
-E1NTgyMjcyLDEyMjkzOTU4NDAsNDY5NjgwNzc1LC0xNjgwMjA2
-ODUxLC0xNjA3OTI2NDgwLC0xOTEwMjA1NTYxXX0=
+eyJoaXN0b3J5IjpbLTE5NzQyODAwNTcsLTg5NTkxMDIzMiwxND
+A0OTgxNTk5LC0xNzE1NTgyMjcyLDEyMjkzOTU4NDAsNDY5Njgw
+Nzc1LC0xNjgwMjA2ODUxLC0xNjA3OTI2NDgwLC0xOTEwMjA1NT
+YxXX0=
 -->

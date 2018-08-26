@@ -42,8 +42,7 @@ $$ This a contradiction, so the limit must be unique.
 5. If $\{ s_n\}_{n \in \mathbb{N}}$ is a sequence of real numbers such that $s_n \leq M \;\forall\; n$ and $\lim_{n\rightarrow\infty} s_n = L$, prove that $L<M$.
 **Solution:** This is equivalent to proving that a bounded, convergent sequence has a limit which is the same as its lowest upper bound.
 Assume $L>M$. Then there exists $n$ with $|a_n - L| < L-P$, which is the same as
-$$M - L < a_n - L < L - M.$$ 
-
+$$M - L < a_n - L < L - M.$$ This implies that $a_n > M$, which contradicts the definition of $M$.
 
 
 
@@ -270,7 +269,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTMwMDc3ODIsMTIyOTM5NTg0MCw0Nj
+eyJoaXN0b3J5IjpbLTE3MTU1ODIyNzIsMTIyOTM5NTg0MCw0Nj
 k2ODA3NzUsLTE2ODAyMDY4NTEsLTE2MDc5MjY0ODAsLTE5MTAy
 MDU1NjFdfQ==
 -->

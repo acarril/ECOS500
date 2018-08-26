@@ -29,7 +29,8 @@ Analogously, we can also find $N_2 \in \mathbb{N}$ s.t.
 $$
 |a_n - l_2| < \epsilon \; \forall n \geq N_2.
 $$
-Note that we're not assuming that each of the two assumed limits, $l_1$ and $l_2$, have 
+Note that we're not assuming that each of the two assumed limits, $l_1$ and $l_2$, we can find the *same* $N$, so that's why there's $N_1$ and $N_2$.
+Now we choose any $m_0 > \max (N_1, N)
 5. 
 6. f
 7. f
@@ -242,6 +243,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc0Mzk4NjEsLTE2MDc5MjY0ODAsLT
-E5MTAyMDU1NjFdfQ==
+eyJoaXN0b3J5IjpbLTI3MzI5NTk2NiwtMTYwNzkyNjQ4MCwtMT
+kxMDIwNTU2MV19
 -->

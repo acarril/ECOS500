@@ -39,7 +39,7 @@ $$
 &= 2\epsilon = \frac{2}{3}|l_1 - l_2|.
 \end{aligned}
 $$ This a contradiction, so the limit must be unique.
-5. 
+5. If $\{ s_n\}_{n \in \mathbb{N}}$ is a sequence of real numbers such that $s_n \leq M \;\forall\; n$ and $\lim_{n\rightarrow\infty} s_n = L$, prove that $L$
 6. f
 7. f
 8. f
@@ -251,6 +251,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NjgwNzc1LC0xNjgwMjA2ODUxLC0xNj
-A3OTI2NDgwLC0xOTEwMjA1NTYxXX0=
+eyJoaXN0b3J5IjpbMTg5NDgwNjUyOSw0Njk2ODA3NzUsLTE2OD
+AyMDY4NTEsLTE2MDc5MjY0ODAsLTE5MTAyMDU1NjFdfQ==
 -->

@@ -59,7 +59,11 @@ This is equivalent to proving that a bounded, convergent sequence has a limit wh
 Also, for some $m > n > N_1$ we have that $| x_m - a | < \epsilon/2 < \epsilon$.
 Now let $N \geq N_1$, so that $\forall n, m \geq N$ we have that
 $$
-|x_n - x_m| = |x_n - a - x_m + a| < |x_n - a| + |-(x_m-a)| < \epsilon/2 + \epsilon/2 = \epsilon.
+\begin{aligned}
+|x_n - x_m| &= |x_n - a - x_m + a| \\
+&< |x_n - a| + |-(x_m-a)| \\
+&< \epsilon/2 + \epsilon/2 = \epsilon.
+\end{aligned}
 $$
 20. If $\{s_n \}_{n=1}^\infty$ is a Cauchy sequence of real numbers having a subsequence that converges to $L$, prove that $\{s_n \}_{n=1}^\infty$ itself converges to $L$.
 **Solution:** Let $S_{n_k} \rightarrow L$. We need to show that $\forall \epsilon > 0, \exists N$ s.t. $d(S_i, L) < \epsilon, \forall i \geq N$.
@@ -253,6 +257,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTM5NTg0MCw0Njk2ODA3NzUsLTE2OD
-AyMDY4NTEsLTE2MDc5MjY0ODAsLTE5MTAyMDU1NjFdfQ==
+eyJoaXN0b3J5IjpbMTY4ODU0NTQ1MiwxMjI5Mzk1ODQwLDQ2OT
+Y4MDc3NSwtMTY4MDIwNjg1MSwtMTYwNzkyNjQ4MCwtMTkxMDIw
+NTU2MV19
 -->

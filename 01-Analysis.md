@@ -41,6 +41,17 @@ $$
 $$ This a contradiction, so the limit must be unique.
 5. If $\{ s_n\}_{n \in \mathbb{N}}$ is a sequence of real numbers such that $s_n \leq M \;\forall\; n$ and $\lim_{n\rightarrow\infty} s_n = L$, prove that $L<M$.
 **Solution:** This is equivalent to proving that a bounded, convergent sequence has a limit which is the same as its lowest upper bound.
+The *least* upper bound is equal to the limit. To show this, let $\varepsilon > 0$. By the definition of the least upper bound, there is $N \in \mathbb{N}$ for which $M - \varepsilon < a_N$. Since the sequence is non-decreasing, we have:
+
+$$
+\forall n > N : M - \varepsilon < a_N \le a_n
+$$
+
+Given that $a_n \le M$, Rearrange to get the definition of the limit:
+
+$$
+\forall n > N : |a_n - M| < \varepsilon
+$$
 6. 
 7. f
 8. f
@@ -257,7 +268,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNDUyOTcxLDEyMjkzOTU4NDAsNDY5Nj
-gwNzc1LC0xNjgwMjA2ODUxLC0xNjA3OTI2NDgwLC0xOTEwMjA1
-NTYxXX0=
+eyJoaXN0b3J5IjpbNTAwNDM2MzcsMTIyOTM5NTg0MCw0Njk2OD
+A3NzUsLTE2ODAyMDY4NTEsLTE2MDc5MjY0ODAsLTE5MTAyMDU1
+NjFdfQ==
 -->

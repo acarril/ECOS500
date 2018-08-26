@@ -40,7 +40,7 @@ $$
 \end{aligned}
 $$ This a contradiction, so the limit must be unique.
 5. If $\{ s_n\}_{n \in \mathbb{N}}$ is a sequence of real numbers such that $s_n \leq M \;\forall\; n$ and $\lim_{n\rightarrow\infty} s_n = L$, prove that $L<M$.
-This is equivalent to proving that a bounded sequence 
+This is equivalent to proving that a bounded, convergent sequence has a 
 6. 
 7. f
 8. f
@@ -253,6 +253,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4OTY2NzY5LDQ2OTY4MDc3NSwtMTY4MD
-IwNjg1MSwtMTYwNzkyNjQ4MCwtMTkxMDIwNTU2MV19
+eyJoaXN0b3J5IjpbLTYzMTQ4NzE0OSw0Njk2ODA3NzUsLTE2OD
+AyMDY4NTEsLTE2MDc5MjY0ODAsLTE5MTAyMDU1NjFdfQ==
 -->

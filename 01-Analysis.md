@@ -38,7 +38,7 @@ $$
 &< \epsilon + \epsilon \\
 &= 2\epsilon = \frac{2}{3}|l_1 - l_2|.
 \end{aligned}
-$$ This is obviously a contradiction, so the limit must be unique.
+$$ This a contradiction, so the limit must be unique.
 5. 
 6. f
 7. f
@@ -251,6 +251,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAyMDY4NTEsLTE2MDc5MjY0ODAsLT
-E5MTAyMDU1NjFdfQ==
+eyJoaXN0b3J5IjpbNDY5NjgwNzc1LC0xNjgwMjA2ODUxLC0xNj
+A3OTI2NDgwLC0xOTEwMjA1NTYxXX0=
 -->

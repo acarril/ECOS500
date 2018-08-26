@@ -50,10 +50,9 @@ $$
 s_n-t_n &= s_n-s+s-t+t-t_n \\
 &\geq s-t-|s_n-s|-|t-t_n| \\
 &\geq c-c/4-c/4 \\&
-\geq c/2
+\geq c/2,
 \end{aligned}
-$$
-contradiction.
+$$ which is a contradiction.
 7. f
 8. f
 9. f
@@ -269,8 +268,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDE1MTUwNCwtODk1OTEwMjMyLDE0MD
-Q5ODE1OTksLTE3MTU1ODIyNzIsMTIyOTM5NTg0MCw0Njk2ODA3
-NzUsLTE2ODAyMDY4NTEsLTE2MDc5MjY0ODAsLTE5MTAyMDU1Nj
-FdfQ==
+eyJoaXN0b3J5IjpbNzg0Mzg5OTA4XX0=
 -->

@@ -40,7 +40,8 @@ $$
 \end{aligned}
 $$ This a contradiction, so the limit must be unique.
 5. If $\{ s_n\}_{n \in \mathbb{N}}$ is a sequence of real numbers such that $s_n \leq M \;\forall\; n$ and $\lim_{n\rightarrow\infty} s_n = L$, prove that $L<M$.
-**Solution:** Assume $L>M$. Then there exists $n$ with $|a_n - L| < L-P$, which is the same as
+**Solution:** [I prove that $L\leq M$]
+Assume $L>M$. Then there exists $n$ with $|a_n - L| < L-P$, which is the same as
 $$M - L < a_n - L < L - M.$$ This implies that $a_n > M$, which contradicts the definition of $M$.
 6. 
 7. f
@@ -258,7 +259,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDk4MTU5OSwtMTcxNTU4MjI3MiwxMj
-I5Mzk1ODQwLDQ2OTY4MDc3NSwtMTY4MDIwNjg1MSwtMTYwNzky
-NjQ4MCwtMTkxMDIwNTU2MV19
+eyJoaXN0b3J5IjpbLTg5NTkxMDIzMiwxNDA0OTgxNTk5LC0xNz
+E1NTgyMjcyLDEyMjkzOTU4NDAsNDY5NjgwNzc1LC0xNjgwMjA2
+ODUxLC0xNjA3OTI2NDgwLC0xOTEwMjA1NTYxXX0=
 -->

@@ -44,7 +44,16 @@ $$ This a contradiction, so the limit must be unique.
 Assume $L>M$. Then there exists $n$ with $|a_n - L| < L-P$, which is the same as
 $$M - L < a_n - L < L - M.$$ This implies that $a_n > M$, which contradicts the definition of $M$.
 6. Suppose that $(s_n)$ converges to $s$, $(t_n)$ converges to $t$, and $s_n \leq t_n \: \forall \: n$. Prove that $s \leq t$.
-**Solution:** Suppose $s>t$. Let $c=s-t$, so there exists $N$ such that $n>N$ implying that $|s_n-s|<c/4$. Analogously, there exists $N'$ such that $n>N'$ implies $|t_n-t|<c/4$. Taking $n>\max(N,N')$, we have that $$s_n-t_n=s_n-s+s-t+t-t_n\geq s-t-|s_n-s|-|t-t_n|\geq c-c/4-c/4\geq c/2$$ contradiction.
+**Solution:** Suppose $s>t$. Let $c=s-t$, so there exists $N$ such that $n>N$ implying that $|s_n-s|<c/4$. Analogously, there exists $N'$ such that $n>N'$ implies $|t_n-t|<c/4$. Taking $n>\max(N,N')$, we have that
+$$
+\begin{aligned}
+s_n-t_n &= s_n-s+s-t+t-t_n \\
+&\geq s-t-|s_n-s|-|t-t_n| \\
+&\geq c-c/4-c/4 \\&
+\geq c/2
+\end{aligned}
+$$
+contradiction.
 7. f
 8. f
 9. f
@@ -260,8 +269,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1ODk1NjI4LC04OTU5MTAyMzIsMTQwND
-k4MTU5OSwtMTcxNTU4MjI3MiwxMjI5Mzk1ODQwLDQ2OTY4MDc3
-NSwtMTY4MDIwNjg1MSwtMTYwNzkyNjQ4MCwtMTkxMDIwNTU2MV
-19
+eyJoaXN0b3J5IjpbMjEwMDE1MTUwNCwtODk1OTEwMjMyLDE0MD
+Q5ODE1OTksLTE3MTU1ODIyNzIsMTIyOTM5NTg0MCw0Njk2ODA3
+NzUsLTE2ODAyMDY4NTEsLTE2MDc5MjY0ODAsLTE5MTAyMDU1Nj
+FdfQ==
 -->

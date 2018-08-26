@@ -29,6 +29,7 @@ Analogously, we can also find $N_2 \in \mathbb{N}$ s.t.
 $$
 |a_n - l_2| < \epsilon \; \forall n \geq N_2.
 $$
+Note that we're not assuming that each of the two assumed limits, $l_1$ and $l_2$, have 
 5. 
 6. f
 7. f
@@ -241,6 +242,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc5MjY0ODAsLTE5MTAyMDU1NjFdfQ
-==
+eyJoaXN0b3J5IjpbLTIwOTc0Mzk4NjEsLTE2MDc5MjY0ODAsLT
+E5MTAyMDU1NjFdfQ==
 -->

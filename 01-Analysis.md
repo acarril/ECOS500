@@ -32,9 +32,12 @@ $$
 Note that we're not assuming that each of the two assumed limits, $l_1$ and $l_2$, we can find the *same* $N$, so that's why there's $N_1$ and $N_2$.
 Now we choose any $m_0 > \max (N_1, N_2)$, so $|a_{m_0} - l_1|<\epsilon$ and $|a_{m_0} - l_2|<\epsilon$. This shows that both $l_1$ and $l_2$ are "close" to $a_{m_0}$. We can remove $a_{m_0}$ by using that $\forall a,b \in \mathbb{R}: |a|-|b| \leq |a-b|$, so that
 $$
-|l_1 - l_2| = |l_1 - a_{m_0}  + a_{m_0} + l_2| \\
+\begin{align}
+|l_1 - l_2| &= |l_1 - a_{m_0}  + a_{m_0} + l_2| \\
 \leq |l_1 - a_{m_0}| + |a_{m_0} - l_2| \\
-< \epsilon + \epsilon
+< \epsilon + \epsilon \\
+= 2\epsilon = \frac{2}{3}|l_1 - l_2|.
+\end{align}
 $$
 5. 
 6. f
@@ -248,6 +251,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjgwNDk2NywtMTYwNzkyNjQ4MCwtMT
-kxMDIwNTU2MV19
+eyJoaXN0b3J5IjpbOTU2ODk2NiwtMTYwNzkyNjQ4MCwtMTkxMD
+IwNTU2MV19
 -->
